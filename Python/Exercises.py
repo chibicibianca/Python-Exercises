@@ -227,3 +227,4 @@ print(snake_to_camel('Python_exercises'))
 txt = "ana   are mere"
 txt1 = re.sub(' +', ' ', txt)
 print(txt1)
+
