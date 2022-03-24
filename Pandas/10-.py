@@ -85,3 +85,4 @@ s1 = pd.Series(range(6))
 s2 = pd.Series(list('abcdef'))
 df = pd.concat([s1, s2], axis = 1)
 print(df)
+
