@@ -120,3 +120,4 @@ print(arr)
 ds = pd.Series([['Red', 'Green', 'White'], ['Red', 'Black'], ['Yellow']])
 ds = ds.apply(pd.Series).stack().reset_index(drop=True)
 print(ds)
+
